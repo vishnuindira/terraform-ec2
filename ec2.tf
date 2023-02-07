@@ -17,6 +17,6 @@ resource "aws_instance" "terra-cloud-ec2" {
   instance_type               = "t2.micro"
   associate_public_ip_address = true
   tags = {
-    "Name" = "terra-cloud"
+    "Name" = "terra-cloud-ec2"
   }
 }
